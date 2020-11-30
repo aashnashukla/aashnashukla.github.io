@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body
+{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	color: white;
+}
+
+header
+{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+h1
+{
+	font-size: 50px;
+	display: inline;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+header nav a
+{
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	border: 2px solid;
+	border-radius: 10px;
+	transition: 0.2s;
+	margin-left: 12px;
+}
+
+#logo
+{
+	display: inline-block;
+}
+
+#logo img
+{
+	display: inline;
+}
+
+body span
+{
+	margin-left: 50px;
+}
+
+table
+{
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+tr, td, th
+{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid white;
+	background-color: black;
+}
+
+ul
+{
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+#user_head
+{
+	color: bisque;
+}
+#trivia_head
+{
+	color: darkgrey;
+}
